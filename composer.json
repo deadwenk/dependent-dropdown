@@ -1,8 +1,8 @@
 {
-    "name": "kartik-v/dependent-dropdown",
+    "name": "deadwenk/dependent-dropdown",
     "description": "A multi level dependent dropdown JQuery plugin that allows nested dependencies.",
     "keywords": ["jquery", "dependent", "dropdown", "select", "option"],
-    "homepage": "https://github.com/kartik-v/dependent-dropdown",
+    "homepage": "https://github.com/deadwenk/dependent-dropdown",
     "license": "BSD-3-Clause",
     "authors": [
         {
