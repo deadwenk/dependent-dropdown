@@ -93,8 +93,9 @@
             $el.trigger('depdrop:init');
         },
         listen: function (i, depends, len) {
-            var self = this;
-            $('#' + depends[i]).on('depdrop:change change select2:select krajeeselect2:cleared', function (e) {
+            var self = this,
+                events = 'depdrop:change change select2:select krajeeselect2:selectall krajeeselect2:cleared krajeeselect2:unselectall';
+            $('#' + depends[i]).on(events, function (e) {
                 var $select = $(this);
                 if (!$h.isEmpty($select.data('select2')) && e.type === 'change') {
                     return;
